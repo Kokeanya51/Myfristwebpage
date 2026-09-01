@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Auxano Institute - Portfolio and Landing Page">
+    <meta name="theme-color" content="#007bff">
+    <title>Auxano Institute - My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ============================
+         HEADER & NAVIGATION
+         ============================ -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <!-- Logo/Brand -->
+                <div class="logo">
+                    <h1>Auxano Institute</h1>
+                </div>
+
+                <!-- Hamburger Menu Toggle Button -->
+                <button id="hamburger-menu" class="hamburger-menu" aria-label="Toggle navigation menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <!-- Navigation Menu -->
+                <nav id="nav-menu" class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#learning" class="nav-link">Learning</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Dark Mode Toggle Button -->
+                <button id="dark-mode-toggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ============================
+         MAIN CONTENT
+         ============================ -->
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home" class="section hero-section">
+            <div class="container">
+                <div class="hero-content" data-animate="fade-in">
+                    <h2>Hello, My Name is</h2>
+                    <h1>Okeanya Kingsley Madukaibeya</h1>
+                    <p class="subtitle">Full Stack Web & Mobile App Developer</p>
+                    <p class="description">
+                        I am a student at Auxano Institute of Technology, passionate about learning 
+                        full stack development and building innovative digital solutions.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                </div>
+                <div class="hero-image" data-animate="slide-up">
+                    <img src="https://placehold.co/400x500" alt="Profile image" width="400">
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <h2 class="section-title" data-animate="fade-in">About Me</h2>
+                
+                <div class="about-content">
+                    <div class="about-text" data-animate="slide-up">
+                        <p>
+                            I am a dedicated student at Auxano Institute of Technology, learning the ins and outs 
+                            of full stack web and mobile app development. This portfolio website is the first 
+                            project I built and published entirely from my smartphone.
+                        </p>
+                        <p>
+                            My goal is to become a skilled developer who can create impactful digital solutions 
+                            that solve real-world problems. I'm committed to continuous learning and improvement.
+                        </p>
+                    </div>
+
+                    <div class="about-stats" data-animate="slide-up">
+                        <div class="stat-item">
+                            <h3>Projects</h3>
+                            <p class="stat-number">5+</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Skills</h3>
+                            <p class="stat-number">10+</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>Experience</h3>
+                            <p class="stat-number">1+ Year</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEARNING SECTION -->
+        <section id="learning" class="section learning-section">
+            <div class="container">
+                <h2 class="section-title" data-animate="fade-in">What I'm Learning</h2>
+
+                <div class="learning-grid">
+                    <!-- Learning Item 1 -->
+                    <div class="learning-item" data-animate="slide-up">
+                        <div class="learning-icon">📚</div>
+                        <h3>HTML Basics</h3>
+                        <p>Building semantic and accessible web pages with proper HTML structure.</p>
+                    </div>
+
+                    <!-- Learning Item 2 -->
+                    <div class="learning-item" data-animate="slide-up">
+                        <div class="learning-icon">🎨</div>
+                        <h3>CSS Styling</h3>
+                        <p>Creating responsive and beautiful designs with modern CSS techniques.</p>
+                    </div>
+
+                    <!-- Learning Item 3 -->
+                    <div class="learning-item" data-animate="slide-up">
+                        <div class="learning-icon">⚙️</div>
+                        <h3>JavaScript</h3>
+                        <p>Writing interactive and dynamic functionality with vanilla JavaScript.</p>
+                    </div>
+
+                    <!-- Learning Item 4 -->
+                    <div class="learning-item" data-animate="slide-up">
+                        <div class="learning-icon">📱</div>
+                        <h3>Responsive Design</h3>
+                        <p>Making websites work perfectly on all devices and screen sizes.</p>
+                    </div>
+
+                    <!-- Learning Item 5 -->
+                    <div class="learning-item" data-animate="slide-up">
+                        <div class="learning-icon">🔧</div>
+                        <h3>Web Development</h3>
+                        <p>Full stack web development including frontend and backend technologies.</p>
+                    </div>
+
+                    <!-- Learning Item 6 -->
+                    <div class="learning-item" data-animate="slide-up">
+                        <div class="learning-icon">📊</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing user-friendly interfaces and experiences.</p>
+                    </div>
+                </div>
+
+                <!-- Steps Section -->
+                <div class="steps-section">
+                    <h3 class="steps-title" data-animate="fade-in">Steps I Followed to Build This Page</h3>
+                    <ol class="steps-list">
+                        <li data-animate="slide-up">
+                            <span class="step-number">1</span>
+                            <div class="step-content">
+                                <h4>Opened my code editor</h4>
+                                <p>Started with a blank file and basic HTML structure</p>
+                            </div>
+                        </li>
+                        <li data-animate="slide-up">
+                            <span class="step-number">2</span>
+                            <div class="step-content">
+                                <h4>Added my content</h4>
+                                <p>Structured the HTML with semantic elements</p>
+                            </div>
+                        </li>
+                        <li data-animate="slide-up">
+                            <span class="step-number">3</span>
+                            <div class="step-content">
+                                <h4>Styled with CSS</h4>
+                                <p>Created responsive and beautiful designs</p>
+                            </div>
+                        </li>
+                        <li data-animate="slide-up">
+                            <span class="step-number">4</span>
+                            <div class="step-content">
+                                <h4>Added JavaScript</h4>
+                                <p>Implemented interactive features and animations</p>
+                            </div>
+                        </li>
+                        <li data-animate="slide-up">
+                            <span class="step-number">5</span>
+                            <div class="step-content">
+                                <h4>Published it live</h4>
+                                <p>Deployed the website for the world to see</p>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <h2 class="section-title" data-animate="fade-in">Get In Touch</h2>
+                <p class="section-subtitle" data-animate="fade-in">
+                    Have a question or want to collaborate? Feel free to reach out!
+                </p>
+
+                <form id="contact-form" class="contact-form" data-animate="slide-up" novalidate>
+                    <!-- Name Field -->
+                    <div class="form-group">
+                        <label for="name">Full Name <span class="required">*</span></label>
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="John Doe"
+                            class="form-input"
+                            required
+                        >
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="john@example.com"
+                            class="form-input"
+                            required
+                        >
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="form-group">
+                        <label for="message">Message <span class="required">*</span></label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            placeholder="Your message here..."
+                            class="form-textarea"
+                            rows="6"
+                            required
+                        ></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+
+                    <!-- Success Message -->
+                    <div class="success-message" id="success-message">
+                        ✓ Message sent successfully! I'll get back to you soon.
+                    </div>
+                </form>
+
+                <!-- Contact Info -->
+                <div class="contact-info" data-animate="slide-up">
+                    <div class="info-item">
+                        <span class="info-icon">📧</span>
+                        <p><strong>Email:</strong> contact@auxanoinstitute.com</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <p><strong>Location:</strong> Auxano Institute of Technology</p>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🔗</span>
+                        <p><strong>Website:</strong> <a href="https://auxanoinstitute.com" target="_blank">auxanoinstitute.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ============================
+         FOOTER
+         ============================ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Made by Okeanya Kingsley Madukaibeya | Auxano Institute of Technology</p>
+            <p class="footer-date">Last updated: <span id="last-updated"></span></p>
+        </div>
+    </footer>
+
+    <!-- ============================
+         SCROLL TO TOP BUTTON
+         ============================ -->
+    <button id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+        <span>↑</span>
+    </button>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
